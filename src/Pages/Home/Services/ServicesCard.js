@@ -1,6 +1,6 @@
 import React from 'react';
-// import { FaArrowRight } from 'react-icons/fa'
-// import { Link } from 'react-router-dom';
+import { FaCartPlus } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const ServicesCard = ({service}) => {
     const {  img, name, price } = service;
@@ -12,9 +12,11 @@ const ServicesCard = ({service}) => {
                 <p className='text-2xl text-orange-600
                  font-semibold'>Price: ৳ {price}</p>
                 <div className="card-actions justify-end">
-                    {/* <Link to={`/checkout/${_id}`}>
-                        <button className="btn btn-primary"><FaArrowRight></FaArrowRight></button>
-                    </Link> */}
+                     {/* <Link to={`/checkout/${_id}`}> */}
+                     <Link to=''>
+                        <button className="btn btn-primary"><span>
+                            </span> Add To Cart <FaCartPlus className='m-3' /></button>
+                    </Link> 
                 </div>
             </div>
         </div>

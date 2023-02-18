@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div>
       <h1 className="my-10 font-bold text-green-600 text-2xl text-center">
-        Tis is an Services section
+        Our Services
       </h1>
       <div>
         <div className="my-12 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

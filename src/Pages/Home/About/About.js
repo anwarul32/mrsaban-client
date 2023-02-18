@@ -9,7 +9,7 @@ const About = () => {
       </h2>
       <p className="text-xl mx-5">
         <Link to="/services" className="text-blue-500">
-          MRSHABAN.COM.BD
+          MRSHABAN
         </Link>{" "}
         হোলো একটি অনলাইন ও অফলাইন ভীতিক হোম সার্ভিস প্লোটফর্ম যা বড় প্ররিসরে
         গ্রহকের চাহিদার ভীতিতে সার্ভিস দিয়ে থাকে। আমরা আপনাদের বেস্ততার কথা
