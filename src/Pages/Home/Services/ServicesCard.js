@@ -14,8 +14,7 @@ const ServicesCard = ({service}) => {
                 <div className="card-actions justify-end">
                      {/* <Link to={`/checkout/${_id}`}> */}
                      <Link to=''>
-                        <button className="btn btn-primary"><span>
-                            </span> Add To Cart <FaCartPlus className='m-3' /></button>
+                        <button className="btn btn-primary">Add To Cart <FaCartPlus className='m-3' /></button>
                     </Link> 
                 </div>
             </div>
